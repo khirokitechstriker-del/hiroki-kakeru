@@ -1,0 +1,72 @@
+:root {
+  font-size: 16px;
+}
+
+body {
+  padding-bottom: 5rem;
+}
+
+.red {
+  background-color: mistyrose;
+}
+
+.blue {
+  background-color: paleturquoise;
+}
+
+.petitblue {
+  background-color: lightcyan;
+}
+
+.yellow {
+  background-color: moccasin;
+}
+div {
+  width: 45%;
+}div {
+  padding: 1rem;  
+  margin: 2rem 0; 
+}
+button {
+  width: 15rem;
+  height: 4rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+div {
+  display: inline-block;
+  width: 45%;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+div {
+  margin: 2rem 0;
+}div {
+  margin: 2rem 0;
+  padding: 1rem;
+  text-align: center; /* 追加 */
+}
+/* 追加 */
+h3 {
+  text-align: center;
+}
+div.blue {
+  background-color: paleturquoise;
+  /* text-align: center; */
+}
+
+div.petitblue {
+  background-color: lightcyan;
+  width: 50%;
+  margin-right: auto; 
+  margin-left: auto;  
+}
+#parent-block {
+  background-color: yellowgreen;
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 10rem;
+}
