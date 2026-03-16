@@ -1,0 +1,47 @@
+:root {
+  font-size: 16px;
+}
+
+body {
+  padding-bottom: 5rem;
+}
+
+.daddy {
+  background-color: limegreen;
+  width: 400px;
+  height: 400px;
+}
+
+.wanderer,
+.brother {
+  width: 100px;
+  height: 100px;
+}
+
+.wanderer {
+  background-color: gold;
+}
+
+.brother {
+  background-color: greenyellow;
+}
+img {
+  float: right;
+}
+
+.float {
+  background-color: skyblue;
+  display: flow-root;
+}
+img {
+  float: right;
+  margin: 1rem;
+}
+.wanderer {
+  background-color: gold;
+}
+img{
+  margin: 1rem;
+  position: sticky;
+  top: 1rem;
+}
