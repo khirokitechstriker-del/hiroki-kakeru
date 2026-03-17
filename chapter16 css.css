@@ -1,0 +1,39 @@
+div {
+  width: 300px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background-color: beige;
+}
+a {
+  display: block;
+}h2 {
+  background-color: lavender;
+  padding: 0.2em;
+  border-radius: 1.7em; /* (1em * 1.5行間 * 2行) ÷ 2 + 0.2em（パディング） */
+}.table-form {
+  display: table; /* → table */
+}
+
+.row {
+  display: table-row; /* → tr */
+}
+
+.row > :is(label, input, textarea, select, button) {
+  display: table-cell;  /* → td */
+}
+
+/* その他の要素をtable-cellにしたい場合 */
+div.cell {
+  display: table-cell;  /* → td */
+}
+
+/* 以下は適当に調整 */
+
+.table-form label {
+  padding-right: 1rem;
+}
+
+.table-form input {
+  width: 150px;
+}
