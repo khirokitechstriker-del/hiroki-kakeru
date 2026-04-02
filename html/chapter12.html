@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>通常フロー</title>
-    <link href="style.css" rel="stylesheet" />
+    <link href="../css/chapter12.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -39,26 +39,31 @@
     <span class="red">Redです。</span>
     <span class="blue">Blueです。</span>
     <span class="yellow">Yellowです。</span>
-<p>
-  機動戦隊ボクシィーズのリーダー的存在が<span class="red">Redです。</span>
-  参謀的存在で、この人がいないと魔王とまともに戦えないのが<span class="blue">Blueです。</span>
-  そして、この人がいないとなぜか組織がうまく回らない存在が<span class="yellow">Yellowです。</span>
-  その他、ボクシィーズ専属の博士がいます。この人が組織唯一の女性で、男女雇用機会均等法に抵触しそうな気がするのですが、運営母体がエストニアの企業なので問題ありません（たぶん）。
-</p>
+    
+    <p>
+     機動戦隊ボクシィーズのリーダー的存在が<span class="red">Redです。</span>
+     参謀的存在で、この人がいないと魔王とまともに戦えないのが<span class="blue">Blueです。</span>
+     そして、この人がいないとなぜか組織がうまく回らない存在が<span class="yellow">Yellowです。</span>
+     その他、ボクシィーズ専属の博士がいます。この人が組織唯一の女性で、男女雇用機会均等法に抵触しそうな気がするのですが、運営母体がエストニアの企業なので問題ありません（たぶん）。
+    </p>
+
     <h3>インラインブロック要素</h3>
     <button class="red">インラインブロック Red！</button>
     <button class="blue">インラインブロック Blue！</button>
     <button class="yellow">インラインブロック Yellow！</button>
+
     <p>
-  機動戦隊ボクシィーズの人気投票を行います。あなたのご贔屓のメンバーのボタンを押してください。
-  やっぱり戦隊モノは熱血リーダーが一番！という人は<button class="red">インラインブロック Red！</button>に投票してください。
-  いやいや、冷静に敵を分析して倒す知能派キャラが一番！という人は <button class="blue">インラインブロック Blue！</button>に投票してください。
-  別にどうでもいいやという人は<button class="yellow">インラインブロック Yellow！</button>に。
-</p>
+     機動戦隊ボクシィーズの人気投票を行います。あなたのご贔屓のメンバーのボタンを押してください。
+     やっぱり戦隊モノは熱血リーダーが一番！という人は<button class="red">インラインブロック Red！</button>に投票してください。
+     いやいや、冷静に敵を分析して倒す知能派キャラが一番！という人は <button class="blue">インラインブロック Blue！</button>に投票してください。
+     別にどうでもいいやという人は<button class="yellow">インラインブロック Yellow！</button>に。
+    </p>
+
+    <div id="parent-block">
+     <span class="inline-block red">赤ボックス</span>
+     <span class="inline-block blue">青ボックス</span>
+     <span class="inline-block yellow">黄ボックス</span>
+    </div>
   </body>
-  <div id="parent-block">
-  <span class="inline-block red">赤ボックス</span>
-  <span class="inline-block blue">青ボックス</span>
-  <span class="inline-block yellow">黄ボックス</span>
-</div>
+  
 </html>
