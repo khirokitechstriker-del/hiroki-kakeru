@@ -1,0 +1,82 @@
+:root {
+  font-size: 16px;
+}
+
+p {
+  background-color: greenyellow;
+}
+
+.red {
+  background-color: mistyrose;
+}
+
+.blue {
+  background-color: paleturquoise;
+}
+
+.petitblue {
+  background-color: lightcyan;
+}
+
+.yellow {
+  background-color: moccasin;
+}
+
+p {
+  margin: 2em;
+  padding: 1em;
+  height: 50vh;
+}
+
+p {
+  background-color: greenyellow;
+  width: 80%;
+}
+
+body {
+  width: 80vw;
+  max-width: 960px; 
+  min-width: 640px; 
+}
+
+p {
+  background-color: greenyellow;
+  width: 50%;
+  height: 10em;
+}
+
+p {
+  background-color: greenyellow;
+  width: 50%;
+  height: 10em;
+  overflow: auto; 
+}
+
+h2 {
+  border-left: solid 1em coral; 
+}
+
+h2 {
+  border-left: solid 1em coral;
+  padding-left: 0.5em; 
+}
+
+h2 {
+  border-left: solid 1em coral;
+  padding-left: 0.5em;
+  border-bottom: solid 0.1em coral;
+  width: 15em; 
+}
+
+table {
+  border: solid royalblue 3px;
+}
+
+td, th {
+  border: solid coral 1px;
+}
+
+table {
+  border: solid royalblue 3px;
+  border-collapse: collapse; 
+}
