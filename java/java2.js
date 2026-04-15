@@ -1,0 +1,26 @@
+'use strict';
+console.log(10 + 5);
+console.log((10 + 5) * 2 / 5 + 4);
+console.log(-5 + 8);
+console.log(2 ** 3);
+console.log(10 % 3);
+console.log('Hello' + ' ' + 'World' + '!!');
+console.log('1たす1は' + 2);
+let weight = 50;
+weight = 60;
+const height = 1.7;
+console.log('体重' + weight + 'kg／身長' + (height * 100) + 'cmのBMI：');
+console.log(weight / (height * height));
+
+let who = 'World!!';
+console.log('Hello ' + who);
+who = "everyone!!";
+console.log('Good Morning! ' + who);
+let x = 10;
+x += 5;
+console.log(x);
+let y = 10;
+y++;
+console.log(y);
+y--;
+console.log(y);
