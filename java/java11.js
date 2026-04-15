@@ -15,9 +15,6 @@ const list = [
 
 const img = document.getElementById('main');
 const [leftArrow, rightArrow] = document.getElementsByTagName('span');
-document.addEventListener('DOMContentLoaded', () => {
-  img.src = list[0];  
-  });
 
 let imgN = 0; 
 rightArrow.addEventListener('click', () => {
@@ -90,13 +87,6 @@ const countID = setInterval(() => {
 const playButton = document.createElement('button');
 playButton.textContent = '自動再生する';
 div.appendChild(playButton);
-
-playButton.addEventListener('click', () => {
-  setInterval(() => {
-    imgN += 1;
-    setImage();
-  }, 500);
-});
 
 playButton.addEventListener('click', () => {
   const autoplay = setInterval(() => {

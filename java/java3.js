@@ -1,6 +1,6 @@
 'use strict';
 const bmi = window.prompt('BMIの値を入力してください');
-const p_element = document.querySelector('p');40
+const p_element = document.querySelector('p');
 
 console.log(`あなたのBMIは${bmi}です`);
 if (bmi > 25) {
